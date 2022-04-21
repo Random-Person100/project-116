@@ -2,7 +2,7 @@ nosex=0;
 nosey=0;
 
 function preload(){
-clown_img=loadImage('https://i.postimg.cc/7ZBcjDqp/clownnose.png')
+clown_img=loadImage('https://i.postimg.cc/3x3QzSGq/m.png')
 }
 function setup(){
     canvas=createCanvas(300,300)
@@ -18,7 +18,7 @@ function modelLoaded(){
 }
 function draw(){
 image(video,0,0,300,300)
-image(clown_img,nosex-15,nosey-15,30,30)
+image(clown_img,nosex-15,nosey,30,30)
 }
 function take_snapshot(){
     save('mySelfie.png')
